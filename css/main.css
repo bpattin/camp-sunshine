@@ -86,6 +86,288 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -------------Base Body Styles--------------------------*/
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row wrap;
+}
+
+h1,h2,h3,h4 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+/*------------------Base Header-Footer Styles---------------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+ /*--------- Header Styles---------------- */
+
+header {
+  background-color: #000;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+img {
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  width: 400px
+}
+   
+  
+.header-divider {
+  height: 2px;
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
+  
+}
+
+header nav ul a{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  color: #fff;
+  text-decoration: none;
+}
+  
+
+/*-----------Main Styles--------------- */
+
+.hero-area {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+h1 {
+
+}
+/*-----------Aside Styles--------------- */
+aside {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+
+
+}
+
+.form-description {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+.form {
+
+}
+
+/*-----------Section Styles--------------- */
+.features {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+h2 {
+
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+}
+
+.fontawesome-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.features-item-description {
+
+}
+
+
+.reviews {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.reviews-copy {
+
+}
+
+/*-----------Footer Styles--------------- */
+
+.footer-wrapper {
+
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.address {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+footer .social p {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.copyright {
+
+}
+
+.copyright span {
+  color: #ff6045;
+  font-weight: bold;
+}
+
+.copyright a {
+
+}
+
+/*-----------FAQ Main Styles--------------- */
+
+.faq-section {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+h4 {
+
+}
+
+/*-----------About Main Styles--------------- */
+
+.mission {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.connect {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow:row wrap;
+
+}
+
+.connect-content {
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
