@@ -153,22 +153,22 @@ header nav {
   
 }
 
-header nav ul a{
+header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /*align-items: center;
   flex-flow: row wrap;
   color: #fff;
-  text-decoration: none;
+  text-decoration: none; */
 }
   
 
-/*-----------Main Styles--------------- */
+/*----------- Hero Styles--------------- */
 
 .hero-area {
   display: flex;
   justify-content:center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -201,11 +201,11 @@ p {
 
 }
 
-/*-----------Section Styles--------------- */
+/*-----------Features--------------- */
 .features {
   display: flex;
   justify-content:center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -213,7 +213,7 @@ h2 {
 
 }
 
-.features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,11 +233,10 @@ h2 {
 
 }
 
-
+/*-----------Reviews--------------- */
 .reviews {
   display: flex;
   justify-content:center;
-  align-items: center;
   flex-flow: row wrap;
 
 }
@@ -270,7 +269,7 @@ h2 {
 
 .social-icons {
   display: flex;
-  justify-content:center;
+  justify-content:space-around;
   align-items: center;
 
 }
@@ -312,17 +311,14 @@ footer .social p {
 }
 
 .faq-content {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  flex-flow: row wrap;
+  
 }
 
 h4 {
 
 }
 
-/*-----------About Main Styles--------------- */
+/*=========== About Page============*/
 
 .mission {
   display: flex;
@@ -341,7 +337,7 @@ h4 {
 
 }
 
-.connect {
+.contact-section {
   display: flex;
   justify-content:center;
   align-items: center;
