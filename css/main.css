@@ -92,7 +92,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
-  width: 88%;
+  width: 90%;
 }
 
 h1,h2,h3,h4 {
@@ -145,6 +145,7 @@ img {
 .header-divider {
   height: 2px;
   width: 100%;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -160,7 +161,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  width: 45%;
+  width: 100%;
   /*align-items: center;
   flex-flow: row wrap;
   color: #fff;
@@ -218,6 +219,12 @@ p {
 }
 
 h2 {
+  margin-bottom: 65px;
+}
+
+.features article {
+  width: 55%;
+  margin: 30px;
 
 }
 
@@ -228,9 +235,6 @@ h2 {
   flex-flow: row wrap;
 }
 
-.features-items article {
-  width:55%;
-}
 
 .features p {
   margin: 0;
@@ -245,7 +249,7 @@ h2 {
 
 }
 
-.features-item-description {
+ p .features-item-description {
 
 }
 
@@ -258,8 +262,13 @@ h2 {
 
 }
 
+.reviews h2 {
+  margin-bottom: 35px;
+}
+
 .reviews h3 {
-  width: 80%;
+  width: 50%;
+  margin: 20px 0;
 }
 
 .reviews-copy {
@@ -267,6 +276,9 @@ h2 {
 }
 
 /*-----------Footer Styles--------------- */
+footer {
+  flex-direction: column;
+}
 
 .footer-wrapper {
   width: 55%;
@@ -283,6 +295,7 @@ h2 {
 }
 
 .contact {
+  margin-bottom: 45px;
 
 }
 
@@ -331,6 +344,7 @@ footer .social p {
 }
 
 .faq .content-wrapper {
+  margin: 50px;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -338,7 +352,13 @@ footer .social p {
 }
 
 .faq-content {
+  margin-bottom:50px 0;
   
+}
+
+.faq h2 {
+  margin-bottom: 50px;
+
 }
 
 h4 {
@@ -373,7 +393,7 @@ h4 {
 }
 
 .connect-content {
-
+  margin: 0;
 }
 
 
