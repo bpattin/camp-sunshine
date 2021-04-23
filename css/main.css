@@ -92,6 +92,7 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
+  width: 88%;
 }
 
 h1,h2,h3,h4 {
@@ -121,6 +122,7 @@ footer {
 
 header {
   background-color: #000;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -129,6 +131,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   width: 90%;
+  margin: 0;
 }
 
 img {
@@ -150,12 +153,14 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  padding: 15px 0 20px 0;
   
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
   /*align-items: center;
   flex-flow: row wrap;
   color: #fff;
@@ -169,10 +174,12 @@ header nav ul {
   display: flex;
   justify-content:center;
   flex-flow: row wrap;
+  padding: 50px 0;
 
 }
 
 h1 {
+  padding: 50px 0;
 
 }
 /*-----------Aside Styles--------------- */
@@ -206,6 +213,7 @@ p {
   display: flex;
   justify-content:center;
   flex-flow: row wrap;
+  padding: 50px 0 65px 0;
 
 }
 
@@ -218,6 +226,14 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features-items article {
+  width:55%;
+}
+
+.features p {
+  margin: 0;
 }
 
 }
@@ -238,7 +254,12 @@ h2 {
   display: flex;
   justify-content:center;
   flex-flow: row wrap;
+  padding: 50px 0 5px 0;
 
+}
+
+.reviews h3 {
+  width: 80%;
 }
 
 .reviews-copy {
@@ -248,11 +269,17 @@ h2 {
 /*-----------Footer Styles--------------- */
 
 .footer-wrapper {
+  width: 55%;
+  margin: 50px 0;
 
 }
 
 .footer-content {
 
+}
+
+.footer p {
+  margin: 0;
 }
 
 .contact {
