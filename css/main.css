@@ -167,6 +167,10 @@ header nav ul {
   color: #fff;
   text-decoration: none; */
 }
+
+nav ul a {
+  color: white;
+}
   
 
 /*----------- Hero Styles--------------- */
@@ -187,7 +191,7 @@ h1 {
 aside {
   display: flex;
   justify-content:center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 
 
@@ -500,15 +504,37 @@ h4 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  figure {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  header nav {
+    width: 25%;
+  }
+
+  .form-description {
+    width: 33%;
+  }
+  .form {
+    width: 38%;
+  }
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
 }
 
 /* ==========================================================================
