@@ -87,24 +87,80 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* -------------Base Body Styles--------------------------*/
+
+html {
+  color: #222;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  text-align: left;
+}
+
+ul,
+ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.4; 
+  list-style-type: none;
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none; 
+
+}
+
+h1 { 
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  padding: 50px 0; 
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+}
+
+h3,h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1428rem;
+  line-height: 1.285;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1428rem;
+  font-style: normal;
+
+}
+
 .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow:row wrap;
   width: 90%;
-}
-
-h1,h2,h3,h4 {
-
-}
-
-p {
-
-}
-
-a {
-
+  margin: 50px 0;
 }
 
 /*------------------Base Header-Footer Styles---------------*/
@@ -180,18 +236,13 @@ nav ul a {
   justify-content:center;
   flex-flow: row wrap;
   padding: 50px 0;
-
 }
 
-h1 {
-  padding: 50px 0;
-
-}
 /*-----------Aside Styles--------------- */
 aside {
   display: flex;
   justify-content:center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
 
 
@@ -201,13 +252,7 @@ aside {
 
 }
 
-h3 {
 
-}
-
-p {
-
-}
 
 .form {
 
@@ -222,12 +267,12 @@ p {
 
 }
 
-h2 {
+.features h2 {
   margin-bottom: 65px;
 }
 
 .features article {
-  width: 55%;
+  width: 63%;
   margin: 30px;
 
 }
@@ -271,7 +316,7 @@ h2 {
 }
 
 .reviews h3 {
-  width: 50%;
+  width: 55%;
   margin: 20px 0;
 }
 
@@ -311,20 +356,20 @@ footer {
 
 }
 
-.social-icons {
+footer .social-icons {
   display: flex;
   justify-content:space-around;
   align-items: center;
 
 }
 
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content:center;
   align-items: center;
 }
 
-.copyright {
+footer .copyright {
 
 }
 
@@ -348,7 +393,7 @@ footer .social p {
 }
 
 .faq .content-wrapper {
-  margin: 50px;
+  margin: 50px 0 0 0;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -396,7 +441,7 @@ h4 {
 
 }
 
-.connect-content {
+.connect-content p {
   margin: 0;
 }
 
@@ -509,7 +554,7 @@ h4 {
   header .content-wrapper {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 76%;
   }
 
   figure {
