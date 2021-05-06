@@ -145,10 +145,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 
 }
 
@@ -198,8 +199,8 @@ header .content-wrapper {
 img {
   display: flex;
   align-self: stretch;
-  justify-content: center;
-  width: 400px
+  justify-content: flex-start;
+  width: 200px;
 }
    
   
@@ -237,11 +238,16 @@ nav ul a {
 /*----------- Hero Styles--------------- */
 
 .hero-area {
+  background: url('img/sun-hero.jpg');
+  background-image: url('img/sun-hero.jpg') color #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content:center;
+  align-items: center;
   flex-flow: row wrap;
   padding: 50px 0;
-  background: url ()
 }
 
 /*-----------Aside Styles--------------- */
@@ -256,6 +262,7 @@ aside {
 }
 
 .form-description {
+  padding-right: 10%;
 
 }
 
@@ -289,11 +296,16 @@ input[type=button] {
 
 /*-----------Features--------------- */
 .features {
-  display: flex;
+  background: url('img/campfire.jpg'); 
+  background-image: url('img/campfire.jpg') color #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.85;
+  display:flex;
   justify-content:center;
   flex-flow: row wrap;
   padding: 50px 0 65px 0;
-
 }
 
 .features h2 {
