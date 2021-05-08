@@ -485,10 +485,6 @@ footer p {
 
 }
 
-h4 {
-
-}
-
 /*=========== About Page============*/
 
 .mission {
@@ -505,9 +501,24 @@ h4 {
 
 }
 
-.map {
-
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  /* example in the video was 75% */
+  overflow: hidden;
+  position: relative;
 }
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
 
 .contact-section {
   background-color: #527158;
