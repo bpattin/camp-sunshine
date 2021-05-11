@@ -333,6 +333,11 @@ input[type=button] {
 .features article {
   width: 63%;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -348,17 +353,22 @@ input[type=button] {
   margin: 0;
 }
 
-}
-
 .fontawesome-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  font-size: 5em;
+  height: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
- p .features-item-description {
 
+.features-item-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
 }
 
 /*-----------Reviews--------------- */
