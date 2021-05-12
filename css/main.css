@@ -120,6 +120,7 @@ h1 {
   color: #e2e3ed;
   font-family: 'Poppins', sans-serif;
   font-size: 2.25rem;
+  font-weight: normal;
   margin-top: 0px;
   
 }
@@ -128,7 +129,7 @@ h2 {
   color: #e2e3ed;
   font-family: 'Poppins', sans-serif;
   font-size: 2.25rem;
-  font-weight: medium;
+  font-weight: normal;
   margin-top: 0px; 
 }
 
@@ -136,6 +137,7 @@ h3,h4 {
   color: #e2e3ed;
   font-family: 'Poppins', sans-serif;
   font-size: 1.125rem;
+  font-weight: normal;
 }
 
 p {
@@ -440,6 +442,10 @@ address p {
   align-items: center;
 }
 
+.social h3 {
+  margin-bottom: 0px;
+}
+
 i .social {
   font-size: 2.75em;
   color: #527158;
@@ -475,7 +481,7 @@ footer p {
 
 p.text {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 
@@ -508,9 +514,8 @@ p.text {
   flex-flow: row wrap;
 }
 
-.faq-content {
-  margin-bottom:50px 0;
-  
+.faq-content p {
+  margin-bottom:50px;  
 }
 
 .faq h2 {
@@ -530,15 +535,15 @@ p.text {
 
 }
 
-.mission-content {
-
+.mission-content p {
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .map figure {
   width: 100%;
   height: 0;
   padding-bottom: 125%;
-  /* example in the video was 75% */
   overflow: hidden;
   position: relative;
 }
@@ -559,11 +564,15 @@ p.text {
   justify-content:center;
   align-items: center;
   flex-flow:row wrap;
-
 }
 
-.connect-content p {
-  margin: 0;
+.contact-section h2 {
+  margin-bottom: 0px;
+}
+
+.contact-content h4 p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
