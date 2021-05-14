@@ -147,10 +147,6 @@ p {
   line-height: 1.285;
 }
 
-img {
-  width: 100%;
-}
-
 figure {
   margin: 0;
 
@@ -207,6 +203,7 @@ img {
   display: flex;
   align-self: stretch;
   justify-content: flex-start;
+  width: 100%;
 }
 
 header figure {
@@ -381,11 +378,6 @@ input[type=button] {
   justify-content:center;
   flex-flow: row wrap;
 }
-
-.reviews img {
-  
-}
-
 
 .reviews h2 {
   margin-top: 0px;
@@ -575,7 +567,10 @@ p.text {
   margin-bottom: 0;
 }
 
-
+.contact-section p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
   
 
@@ -681,10 +676,23 @@ p.text {
 
 @media only screen and (min-width: 768px) {
   /* Tablet styles here */
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3,h4 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    padding-left: 5%;
+  }
+  
   header .content-wrapper {
     display: flex;
-    justify-content: center;
-    width: 76%;
+    justify-content: space-between;
+    width: 100%;
   }
 
   figure {
@@ -697,8 +705,70 @@ p.text {
   }
 
   header nav {
+    padding-right: 30px;
     width: 25%;
   }
+
+  .hero-area .content-wrapper {
+    justify-content: flex-start;
+    width: 75%; 
+  }
+
+  .hero-area {
+    justify-content: flex-start;
+    height: 600px;
+    padding-left: 8%;
+  }
+
+  aside .content-wrapper {
+    justify-content: space-around;
+    align-items: flex-start;
+  } 
+
+ .features-items {
+    justify-content: space-around;
+  }
+
+ .features article {
+   width: 25%;
+   margin-top: 0;
+   margin-right: 60px;
+   margin-left: 60px;
+  }
+
+ .features h2 {
+   margin-bottom: 0;
+  }
+
+ .reviews h2 {
+    margin-bottom: 0;
+  }
+
+ .reviews article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+ .reviews figure {
+    width: 85%;
+    height: 225px;
+  }
+
+ .reviews img {
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+
+  .reviews-copy {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 15px;
+  }
+ 
 
   .form-description {
     width: 33%;
