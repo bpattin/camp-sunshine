@@ -572,6 +572,14 @@ p.text {
   margin-bottom: 0px;
 }
 
+.itinerary {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 250px;
+}
+
   
 
 
@@ -721,26 +729,39 @@ p.text {
   }
 
   aside .content-wrapper {
+    display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-flow: row wrap;
   } 
 
- .features-items {
-    justify-content: space-around;
+  .features .content-wrapper {
+    margin-bottom: 70px;
   }
 
- .features article {
+  .features .features-items {
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .features article {
    width: 25%;
    margin-top: 0;
    margin-right: 60px;
    margin-left: 60px;
+   flex-basis: 200px;
   }
 
- .features h2 {
-   margin-bottom: 0;
+  .features h2 {
+    margin-bottom: 0;
   }
 
- .reviews h2 {
+  .reviews .content-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .reviews h2 {
     margin-bottom: 0;
   }
 
@@ -768,6 +789,32 @@ p.text {
     align-items: flex-start;
     margin-left: 15px;
   }
+
+  .footer-wrapper {
+    margin-top: 75px;
+    width: 75%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .social {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+  .copyright .text {
+    margin-top: 0px;
+  }
  
 
   .form-description {
@@ -776,14 +823,85 @@ p.text {
   .form {
     width: 38%;
   }
+/*=========== TABLET About Page============*/
+  .mission .content-wrapper {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  .mission-content p {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 45%;
+  }
+
+
+ .mission-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space between;
+    width: 90%;
+ }
 
   .map figure {
     padding-bottom: 43%;
   }
+
+  .contact-section .content-wrapper {
+    justify-content: flex-start;
+    margin: 100px 0; 
+  }
+
+    .contact-section h2 {
+      justify-content: flex-start;
+      padding-left: 0px;
+      width: 80%;
+    }
+
+    .contact-content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 90%;
+    }
+
+    .reservations {
+      padding-right: 15%;
+    }
+  
+  /*=========== TABLET FAQ Page============*/
+    .faq-section .content-wrapper {
+      justify-content:space-between;
+    }
+    .faq-section h2 {
+      padding-left: 0;
+    }
+
+    .faq-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-flow: row wrap;
+    } 
+
+
+    
+
+    .faq h2 {
+      width: 100%;
+    }
+
+
+
 }
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+  
+  .features-items article {
+    
+  }
+  
   .map figure {
     padding-bottom: 38%;
   }
