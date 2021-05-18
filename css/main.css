@@ -908,13 +908,91 @@ p.text {
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
   
-  .features-items article {
-    
+  .content-wrapper {
+    max-width: 960px;
+    justify-content: flex-start;
+  }  
+ 
+  /*Header*/
+
+  header .content-wrapper figure {
+    width: 25%;
   }
   
+  header figure {
+    justify-content:flex-start;
+    padding-left: 0px;
+  }
+
+  /*Hero*/
+
+  hero-area h1 {
+    max-width: 960px;
+  }
+
+  /*Aside*/
+  aside .content-wrapper,
+  .footer-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside. content-wrapper .form {
+    width: 320px;
+    width: 26%;
+ } 
+
+ /*Features*/
+  .features h2 {
+    width: 80%;
+    padding-left: 0px;
+  }
+
+  .features {
+    height: 810px;
+  }
+
+  .features article {
+    flex-basis: 320px;
+  }
+
+  /* Reviews*/
+  .reviews article div {
+    width: 80%;
+  }
+  
+  /*Footer*/
+  .footer-content {
+    justify-content: space-around;
+  }
+
+  /*=====================About Page===========================*/
+
+  .mission h2 {
+    padding-left: 20px;
+  }
+  
+  
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+    padding-left: 20px; 
+  }
+
+  .contact-content {
+    justify-content: space-between;
+    padding-left: 20px;
+  }
+
+
   .map figure {
     padding-bottom: 38%;
   }
+
+   /*=====================FAQ Page===========================*/
+  .faq h2 {
+    width: 100%;
+  }
+
 
 }
 
