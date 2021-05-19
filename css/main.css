@@ -762,6 +762,7 @@ p.text {
   }
 
   .reviews .content-wrapper {
+    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 100px;
   }
@@ -866,15 +867,13 @@ p.text {
     .contact-content {
       display: flex;
       flex-direction: row;
+      justify-content: space-around;
       align-items: flex-start;
       width: 90%;
     }
 
-    .reservations {
-      padding-right: 15%;
-    }
-  
-  /*=========== TABLET FAQ Page============*/
+      
+    /*=========== TABLET FAQ Page============*/
     .faq-section .content-wrapper {
       justify-content:space-between;
     }
@@ -888,21 +887,14 @@ p.text {
       flex-flow: row wrap;
       justify-content: space-between;
     }
-    
-
+   
     .faq-content div {
       flex-basis: 45%;
     }
 
-
-    
-
     .faq h2 {
       width: 100%;
     }
-
-
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -911,8 +903,12 @@ p.text {
   .content-wrapper {
     max-width: 960px;
     justify-content: flex-start;
-  }  
- 
+  } 
+  
+  .footer-content {
+    justify-content: space-between;
+  }
+
   /*Header*/
 
   header .content-wrapper figure {
@@ -990,7 +986,7 @@ p.text {
 
    /*=====================FAQ Page===========================*/
   .faq h2 {
-    width: 100%;
+    width: 90%;
   }
 
 
@@ -1059,7 +1055,6 @@ p.text {
   }
 
   p,
-  ,
   h3 {
     orphans: 3;
     widows: 3;
