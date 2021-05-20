@@ -482,6 +482,10 @@ p.text {
   font-weight: bold;
 }
 
+.text span:hover {
+  font-size:1.5rem;
+}
+
 .copyright {
   width: 100%;
   flex-direction: column;
