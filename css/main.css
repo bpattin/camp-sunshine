@@ -417,13 +417,11 @@ footer {
 
 .contact {
   margin-bottom: 35px;
-
 }
 
 address p {
   margin-top: 0px;
   margin-bottom: 0px;
-
 }
 
 .social {
@@ -706,6 +704,7 @@ p.text {
     padding-left: 5%;
   }
   
+  /* Home */
   header .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -736,6 +735,7 @@ p.text {
     height: 600px;
     padding-left: 8%;
   }
+  /* Aside*/
 
   aside .content-wrapper {
     display: flex;
@@ -743,6 +743,15 @@ p.text {
     align-items: flex-start;
     flex-flow: row wrap;
   } 
+
+  .form-description {
+    width: 33%;
+  }
+  .form {
+    width: 38%;
+  }
+  
+  /*Features*/
 
   .features .content-wrapper {
     margin-bottom: 70px;
@@ -764,6 +773,8 @@ p.text {
   .features h2 {
     margin-bottom: 0;
   }
+
+  /*Reviews*/
 
   .reviews .content-wrapper {
     justify-content: space-between;
@@ -800,6 +811,8 @@ p.text {
     margin-left: 15px;
   }
 
+  /*Footer*/
+
   .footer-wrapper {
     margin-top: 75px;
     width: 75%;
@@ -820,19 +833,17 @@ p.text {
     align-items: center;
   }
 
+  .contact address {
+    width: 288px;
+  }
+
 
 
   .copyright .text {
     margin-top: 0px;
   }
  
-
-  .form-description {
-    width: 33%;
-  }
-  .form {
-    width: 38%;
-  }
+  
 /*=========== TABLET About Page============*/
   .mission .content-wrapper {
     margin-top: 100px;
@@ -844,7 +855,6 @@ p.text {
     padding-left: 20px;
     width: 45%;
   }
-
 
  .mission-content {
     display: flex;
@@ -864,7 +874,7 @@ p.text {
 
     .contact-section h2 {
       justify-content: flex-start;
-      padding-left: 0px;
+      padding-left: 35px;
       width: 80%;
     }
 
@@ -873,7 +883,7 @@ p.text {
       flex-direction: row;
       justify-content: space-around;
       align-items: flex-start;
-      width: 90%;
+      width: 100%;
     }
 
       
@@ -991,7 +1001,10 @@ p.text {
   .mission h2 {
     padding-left: 20px;
   }
-  
+
+  .map figure {
+    padding-bottom: 38%;
+  }
   
   .contact-section .content-wrapper h2 {
     width: 80%;
@@ -1003,12 +1016,8 @@ p.text {
     padding-left: 20px;
   }
 
-
-  .map figure {
-    padding-bottom: 38%;
-  }
-
-   /*=====================FAQ Page===========================*/
+  
+  /*=====================FAQ Page===========================*/
   .faq h2 {
     width: 90%;
   }
