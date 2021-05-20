@@ -909,6 +909,10 @@ p.text {
     justify-content: space-between;
   }
 
+  p {
+    line-height: 2;
+  }
+
   /*Header*/
 
   header .content-wrapper figure {
@@ -927,8 +931,7 @@ p.text {
   }
 
   /*Aside*/
-  aside .content-wrapper,
-  .footer-wrapper {
+  aside .content-wrapper {
     justify-content: space-around;
   }
 
@@ -945,7 +948,11 @@ p.text {
   }
 
   .features {
-    height: 810px;
+    height: 925px;
+    height: 925px;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 
   .features article {
@@ -956,11 +963,24 @@ p.text {
   .reviews article div {
     width: 80%;
   }
+
+  .reviews figure {
+    height:  400px;
+  }
+
+  .reviews-copy p {
+    line-height: 3;
+  }
   
   /*Footer*/
-  .footer-content {
+  .footer-content,
+  .footer-wrapper {
     justify-content: space-around;
   }
+
+  .social {
+    width: 27%;
+  }  
 
   /*=====================About Page===========================*/
 
